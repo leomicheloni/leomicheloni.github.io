@@ -2,6 +2,7 @@
 layout: post
 title: Observable en Javascript y RxJs, ¿Qué son?
 published: true
+categories: javascript, rxjs
 ---
 
 ## Introduccción
@@ -30,7 +31,7 @@ Otro ejemplo podría ser los eventos del movimiento del mouse sobre la pantalla,
 
 Como dijimos, un observable es un objeto que permite manipular una stream de datos, en RxJs tiene varios métodos pero nos vamos a centrar en uno, susbscribe y en particular en esta sobrecarga:
 
-``` Javascript
+```Javascript
   subscribe(next?: (value: T) => void, error?: (error: any) => void, complete?: () => void): Subscription;
 ```
 
