@@ -101,4 +101,4 @@ exclude:
   - CNAME
 
 
-theme: jekyll-theme-dracula
+theme: jekyll-theme-darcula
