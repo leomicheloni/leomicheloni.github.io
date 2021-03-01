@@ -2,7 +2,7 @@
 layout: post
 title: Observable en Javascript y RxJs, ¿Qué son?
 published: true
-categories: javascript, rxjs
+categories: javascript rxjs
 ---
 
 ## Introduccción
