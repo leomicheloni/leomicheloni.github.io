@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Observable en Javascript y RxJs, operators
-published: true
+published: false
 categories: javascript rxjs
 ---
 
@@ -32,7 +32,6 @@ $dockObs.unsuscribe();
 Sin embargo no podemos hacer esto justo después de un click, pero podemos usar un operador.
 
 ``` javascript
-// take only get a number of event under the current suscription, then ignore the others
 buttonClickObs.pipe(take(1)).subscribe(observer);
 ```
 el método **pipe** permite agregar operadores al flujo de procesamiento del stream original, en este ejemplo pasamos la función (el operador) **take** pero podríamos pasar varios, y se irían procesando uno tras otro, es decir, el resultado del observable se pasa el primer operador, el resultado de ese operador al segundo, etc. el resultado final se retorna a los suscriptores.
@@ -86,7 +85,6 @@ from([1,2,3,4,5,6,7,8,9,0]).pipe(skip(2)).pipe(map( (i)=> i * 2)).subscribe(obse
 Tap es interesante, porque permite leer los elementos pero no modifica el resultado que se pasa como resultado es útil, por ejemplo, para logging
 
 ``` javascript
-// tap can read response without any modification
 from([1,2,3,4,5,6,7,8,9,0]).pipe(tap((i)=>console.log("TAP: " + i * 2))).subscribe(observer)
 ```
 
@@ -102,8 +100,6 @@ Delay espera un tiempo antes de comenzar a retornar los resultados
 ``` javascript
 from([1,2,3,4,5,6,7,8,9,0]).pipe(delay(5000)).subscribe(observer)
 ```
-
-
 
 ### DebunceTime
 // no retorna nada hasta que pasa un tiempo desde que no llegan valores, es decir, si estamos escuchando los eventos en un input podemos decirle que no emita nada hasta que no haya pasado un tiempo sin que se escriba algo.
