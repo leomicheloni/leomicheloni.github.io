@@ -24,14 +24,14 @@ footer-links:
   # email: amit.d.merchant@gmail.com
   facebook:
   flickr:
-  # github: amitmerchant1990/reverie
+  github: leomicheloni
   instagram:
   linkedin: leomicheloni
   pinterest:
   rss: rss
   twitter: leomicheloni
   stackoverflow: 
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: channel/UCQlqd6byJpXtGuYrL4cElgw
   googleplus: # anything in your profile username that comes after plus.google.com/
   playconsole:
 
@@ -41,7 +41,7 @@ footer-links:
 disqus: 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-# google_analytics: UA-43339302-11
+google_analytics: UA-2350172-1
 
 # For newer "GA4" analytics, use the following instead of the "UA" entry above
 #google_analytics_ga4: G-GABC1DEFG

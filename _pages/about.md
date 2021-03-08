@@ -12,7 +12,7 @@ En mis días de colegio industrial mucho quick basic y conectar cosas al puerto 
 
 Desde 2004 trabajo en lenguajes de alto nivel, principlamente C#, Javascript y esas cosas.
 
-Si tenés una duda, pregunta o sugerencia no dudes en contactarme a mi cuenta de twitter o linkein.
+Si tenés una duda, pregunta o sugerencia no dudes en contactarme a mi cuenta de twitter o linkedin.
 
 Enjoy!
 
