@@ -5,8 +5,6 @@ published: true
 categories: javascript rxjs
 ---
 
-## Introduccción
-
 En el [post anterior](https://leomicheloni.com/Observable-RXJS/) contamos un poco qué son los observable y cómo funcionan en RXjs. Ahora vamos a ir un paso más allá y jugar un poco con uno de sus principales elementos, los operadores.
 
 

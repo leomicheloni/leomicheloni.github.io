@@ -5,8 +5,6 @@ published: true
 categories: javascript rxjs
 ---
 
-## Introduccción
-
 Muchas acciones en una aplicación ocurren de manera asincrónica, es decir, no nos quedamos a la espera de un dato sino que éste llega en un momento aleatorio. Un ejemplo claro es cuando un usuario presiona un botón en nuestra aplicación, nuestro código no espera que el usuario presione el botón porque ocurrirá en un momento aleatorio o tal vez nunca ocurra, es decir, es asincrónico; nuestro código no está sincronizado o atado a la acción para continuar con lo que tiene que hacer, sino que la acción llega y el código hace algo en consecuencia en un momento cualquiera.
 
 Esto es aplicable para casi cualquier tecnología de programación y se hace muy evidente en Javascript con las llamadas a API donde invocamos una URL pero la repuesta puede tardar un tiempo indefinido en llegar (o no llegar nunca, o fallar).
