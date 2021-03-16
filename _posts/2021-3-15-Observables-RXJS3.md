@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Observable en Javascript y RxJs, operators
+title: Observable en Javascript y RxJs, MergeMap y SwitchMap
 published: true
 categories: javascript rxjs
 ---
