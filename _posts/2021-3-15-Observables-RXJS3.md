@@ -5,7 +5,7 @@ published: true
 categories: javascript rxjs
 ---
 
-En el [post anterior](https://leomicheloni.com/Observable-RXJS/) comenzamos a ver algunos operadores, los más "normales" que funcionan más como filtros, ahora vamos a ir un paso más allá revisando **MergeMap** y **SwitchMap** que permiten hacer cosas más interesantes.
+En [los dos](https://leomicheloni.com/Observable-RXJS2/) [posts anteriores](https://leomicheloni.com/Observable-RXJS/) comenzamos a aprender sobre observables y ver algunos operadores, los más "normales" que funcionan más como filtros, ahora vamos a ir un paso más allá revisando **MergeMap** y **SwitchMap** que permiten hacer cosas más interesantes.
 
 ## MergeMap y SwitchMap
 
