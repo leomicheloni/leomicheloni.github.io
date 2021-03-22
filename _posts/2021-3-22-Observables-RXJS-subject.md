@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Observables en Javascript: RXjs Observable, ¿Qué es un Subject?
+title: Observables en Javascript RXjs Observable, ¿Qué es un Subject?
 published: true
 categories: javascript rxjs
 ---
-
 En este cuarto y último post sobre Observables en Javascript vamos a ver el último tema que, según mi opinión, forma parte de los conceptos más básicos para comprender los observables.
 Vamos a hablar de Subjects. Si no has leídos los posts anteriores dejo la lista:
  - [Qué son los observables](2021-3-01-Observable-RXJS)
