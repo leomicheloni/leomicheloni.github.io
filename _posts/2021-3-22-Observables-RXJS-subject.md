@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Observables en Javascript RXjs Observable, ¿Qué es un Subject?
+title: Observables en Javascript RXjs ¿Qué es un Subject?
 published: true
 categories: javascript rxjs
 ---
