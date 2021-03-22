@@ -28,9 +28,9 @@ subject.subscribe({
 subject.next('Hola');
 
 ```
-En el ejemplo de arriba vemos el funcionamiento más básico de Subject, crear un observable que podemos controlar, luego nos suscribimos y el resultado es el esperado, emite un valor.
+En el ejemplo de arriba vemos el funcionamiento más básico de Subject, crear un observable que podemos controlar, luego nos suscribimos y el resultado es el esperado, emite un valor cuando invocamos _manualmente_ el método **next**.
 
-``` bash
+``` javascript
 Hola
 ```
 
@@ -71,7 +71,7 @@ document.querySelector("#errorButton")?.addEventListener("click", ()=>{
 
 Y vemos que el resultado es el esperado, hasta que presionamos _Stop_ y se ejecuta el _complete_
 
-``` bash
+``` javascript
 1 
 2 
 3 
@@ -80,7 +80,7 @@ complete
 ```
 Si en lugar de _Stop_ forzamos un error el Subject deja de emitir también.
 
-``` bash
+``` javascript
 1 
 2 
 3 
