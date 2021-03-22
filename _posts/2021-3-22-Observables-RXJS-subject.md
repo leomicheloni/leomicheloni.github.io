@@ -6,9 +6,9 @@ categories: javascript rxjs
 ---
 En este cuarto y último post sobre Observables en Javascript vamos a ver el último tema que, según mi opinión, forma parte de los conceptos más básicos para comprender los observables.
 Vamos a hablar de Subjects. Si no has leídos los posts anteriores dejo la lista:
- - [Qué son los observables](2021-3-01-Observable-RXJS)
- - [Operadores](2021-3-01-Observable-RXJS2)
- - [MergeMap y SwitchMap](2021-3-01-Observable-RXJS)
+ - [Qué son los observables](Observable-RXJS)
+ - [Operadores](Observable-RXJS2)
+ - [MergeMap y SwitchMap](Observable-RXJS)
 
 
 ## ¿Qué es un Subject?
