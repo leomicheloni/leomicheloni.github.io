@@ -16,7 +16,7 @@ Estas son las grabaciones de las dos sesiones. (sabrán disculpar mis malas pala
 
 ## Agradecimientos
 
-Muchas gracias a los presentes y sobre todo a **Eugenio Serrano**, ex MVP de Argentina y una persona incansable en generar espacios para compartir y generar comunidad.
+Muchas gracias a los presentes y sobre todo a [Eugenio Serrano](https://twitter.com/EugenioSerrano), ex MVP de Argentina y una persona incansable en generar espacios para compartir y generar comunidad.
 
 Nos leemos
 
