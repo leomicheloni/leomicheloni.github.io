@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Charlas entre amigos sobre Docker
-published: false
+title: Charla entre amigos sobre Docker
+published: true
 categories: docker charla
 ---
 Este mes he tenido el privilegio de ser invitado por un grupo de colegas y estudiantes del **polo tecnológico de la ciudad de Córdoba** en Argentina para hablar sobre **Docker**, puramente como una charla entre colegas sobre el tema.
