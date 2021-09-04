@@ -4,12 +4,11 @@ title: Ejecutar Wordpress + MySQL en Kubernetes paso a paso
 published: true
 categories: k8s docker wordpress mysql tutorial
 ---
-# Introducción
-
-En las siguientes semanas voy a publicar una serie de post sobre cómo ejecutar wordpress en Kubernetes paso a paso, mayormente para comprender los principales elementos de Kubernetes y cómo interactúan.
+En las siguientes semanas voy a publicar una serie de post sobre cómo ejecutar **Wordpress en Kubernetes paso a paso**, mayormente para comprender los principales elementos de Kubernetes y cómo interactúan.
 
 En esta primera publicación vamos a hacer una aproximación bien simple.
-
+Tomaremos un docker-compose como base y convertirlo a menos en los diferentes _yaml_ para que funcione en Kubernetes.
+>En mi caso voy a usar Docker Desktop sobre Windows.
 
 # Convertir Wordpress desde docker-compose a Kubernetes
 
