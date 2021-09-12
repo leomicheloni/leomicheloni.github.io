@@ -8,7 +8,9 @@ categories: k8s docker wordpress mysql tutorial
 # Introducción
 
 En el [post anterior](/wordpress-kubernetes) vimos cómo ejecutar Wordpress (Wordpress + MySQL) en Kubernetes, del modo más básico, solo con dos Pods separados.
-En este post vamos a poner la persistencia en elementos externos (volúmenes) para que los datos tengan un ciclo de vida separado de los Pods
+En este post vamos a poner la persistencia en elementos externos (volúmenes) para que los datos tengan un ciclo de vida separado de los Pods.
+
+![](../images/secondapproach.png)
 
 ## Mejorando la persistencia
 
