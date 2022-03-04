@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: busybox
+  name: busybox
+spec:
+  imagePullSecrets: # indicamos que si se necesita autenticación se utilice el user y password del secret
+  - name: mysecreto
+  containers:
+  - image: busybox
+    args: ["tail", "-f", "/dev/null"]
+    name: busybox
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
