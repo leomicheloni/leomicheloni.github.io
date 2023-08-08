@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cómo recuperar repositorios git en Azure DevOps
-published: false
+published: true
 ---
 
 > Aclaración, este método solo funciona durante 30 días después del borrado.
