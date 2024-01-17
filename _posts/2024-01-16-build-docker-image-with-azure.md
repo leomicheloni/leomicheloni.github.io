@@ -17,8 +17,11 @@ La idea es que teniendo el código o el binario, lo que queramos meter en la ima
 Entonces, teniendo ya el código o binario y el Dockerfile, vamos a crear la imagen.
 
 ## Pasos para crear la imagen y subirla al ACR
+
+Antes de nada tenemos que tener (además de la cuenta de Azure y el ACR) instalado el Azure CLI. Lo podemos descargar desde [aquí](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+
 - Hacer login en Azure
-- Seleccionar la suscripción
+- Seleccionar la suscripción donde tenemos el ACR
 - Crear la imagen
 
 
@@ -27,8 +30,6 @@ Entonces, teniendo ya el código o binario y el Dockerfile, vamos a crear la ima
 az login
 
 az account set --subscription KKKKKK-KKKK-KKKK-KKKK-KKKKKKKKK
-
-az account show
 
 az acr build --registry miurl.azurecr.io -f Dockerfile --image test:latest .
 
